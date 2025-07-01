@@ -3,8 +3,8 @@ const Person = require('../models/person');
 // ✅ 1. Créer une personne
 const createSinglePerson = () => {
     const newPerson = new Person({
-        name: 'Chaima',
-        age: 25,
+        name: 'Molka',
+        age: 20,
         favoriteFoods: ['Pizza', 'Couscous']
     });
 
